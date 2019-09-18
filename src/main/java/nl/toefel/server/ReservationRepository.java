@@ -23,9 +23,9 @@ public class ReservationRepository {
         return reservationWithId;
     }
 
-    public List<Reservation> listReservations() {
-        return List.copyOf(reservationById.values());
-    }
+//    public List<Reservation> listReservations() {
+//        return List.copyOf(reservationById.values());
+//    }
 
     public void deleteReservation(String id) {
         reservationById.remove(id);

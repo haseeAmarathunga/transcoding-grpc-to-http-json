@@ -19,5 +19,4 @@ public class ServerMain {
         System.out.println("Started listening for rpc calls on 53000...");
         service.awaitTermination();
     }
-
 }
